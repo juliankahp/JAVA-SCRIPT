@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/week13calc.css">
+    <link rel="shortcut icon" href="/assets/images/cat.png">
+
+    <title>week13calc</title>
+</head>
+
+<body>
+    <div><input id="x" placeholder="Введите первое число" /></div>
+    <div id="buttons">
+        <button id="plus" onclick="op='+'">+</button>
+        <button id="minus" onclick="op='-'">-</button>
+        <button id="ymnozit" onclick="op='*'">*</button>
+        <button id="delenie" onclick="op='/'">:</button>
+    </div>
+
+    <div><input id="y" placeholder="Введите первое число" /></div>
+
+    <button onclick="func()">=</button>
+
+    <div>
+        <p id="itogo"></p>
+    </div>
+
+    <script src="week13calc.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+#plus {
+    background-color: palegreen;
+    border-radius: 15px;
+}
+
+#minus {
+    background-color: paleturquoise;
+    border-radius: 5px;
+}
+
+#ymnozit {
+    background-color: palevioletred;
+    border-radius: 15px;
+}
+
+#delenie {
+    background-color: peru;
+    border-radius: 5px;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#x {
+    margin-bottom: 10px;
+}
+
+#buttons {
+    margin-bottom: 10px;
+}
+
+#y {
+    margin-bottom: 10px;
+}
+
+#itogo {
+    border: 1px solid orchid;
+    margin-left: 200px;
+    margin-right: 200px;
+}
